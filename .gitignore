@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights (large files)
+models/*.pt
+!models/.gitkeep
+
+# Data files
+data/*.mp4
+data/*.avi
+data/*.csv
+!data/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
